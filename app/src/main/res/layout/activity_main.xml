@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.student.lab05.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello World!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ok"
+        android:text="一個按鈕" />
+
+    <Button
+        android:id="@+id/secondbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="secondbtn"
+        android:text="兩個按鈕" />
+
+    <Button
+        android:id="@+id/thirdbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="thirdbtn"
+        android:text="三個按鈕" />
+
+    <Button
+        android:id="@+id/fourbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fourbtn"
+        android:text="項目清單" />
+
+    <Button
+        android:id="@+id/fifthbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fifthbtn"
+        android:text="可複選的核取方塊項目" />
+
+    <Button
+        android:id="@+id/sixthbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sixthbtn"
+        android:text="單選的radio按鈕項目" />
+
+    <Button
+        android:id="@+id/seventhbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="seventhbtn"
+        android:text="自訂選單" />
+
+
+</LinearLayout>
